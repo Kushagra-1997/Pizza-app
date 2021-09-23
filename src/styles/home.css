@@ -1,0 +1,23 @@
+section.banner_image {
+  background: url("../assets/pizza.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 10vh);
+  text-transform: capitalize;
+}
+
+.banner_content {
+  padding: 45px 0 25px 0;
+}
+.banner_content h2 {
+    font-size: 45px;
+    line-height: 1.5;
+}
+.banner_content h4 {
+  text-transform: uppercase;
+}
+button.btn.btn-dark {
+  padding: 5px 20px;
+  text-transform: capitalize;
+}

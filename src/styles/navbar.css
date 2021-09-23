@@ -1,0 +1,14 @@
+nav.navbar{
+  /* height: 10vh; */
+  padding: 15px 0 15px 0;
+}
+
+nav.navbar a.navbar-brand {
+  width: 40px;
+}
+/* responsive code */
+@media (max-width: 768px) {
+  nav.navbar a.navbar-brand {
+    width: 45px;
+  }
+}
